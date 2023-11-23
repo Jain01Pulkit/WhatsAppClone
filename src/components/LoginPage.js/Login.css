@@ -1,0 +1,40 @@
+.input__name > input {
+  display: flex;
+  flex: 1;
+  outline-width: 0;
+  border: none;
+  border-radius: 30px;
+  padding: 20px;
+  margin-inline-start: 600px;
+  width: 500px;
+  margin-block-start: 250px;
+}
+
+.input__email > input {
+  display: flex;
+  flex: 1;
+  border: none;
+  outline-width: 0;
+
+  border-radius: 30px;
+  padding: 20px;
+  margin-inline-start: 600px;
+  width: 500px;
+  margin-block-start: 10px;
+}
+
+.button__submit > button {
+  border-radius: 30px;
+  /* border: none; */
+  padding: 20px;
+  margin-inline-start: 600px;
+  width: 550px;
+  /* margin-top: 300px; */
+  margin-block-start: 10px;
+  background-color: aquamarine;
+  cursor: pointer;
+}
+.image__icon {
+  margin: 0 auto 3.2rem;
+  width: fit-content;
+}
